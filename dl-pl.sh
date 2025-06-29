@@ -1,4 +1,10 @@
-yt-dlp \
+# param 1 is playlist URL
+# param 2 is output folder name
+# Param 3 is the starting index of the playlist
+
+cd yt_dlp
+
+python __main__.py \
 --no-check-certificate \
 --sub-lang en,zh-Hans,zh-Hant,ja,ko,fr,de,it,es,pt-BR,ru,ar,id,hi \
 --convert-subs srt \
@@ -11,3 +17,5 @@ yt-dlp \
 -v \
 -o "../output/$2/%(playlist_index)s_%(title)s.%(ext)s" \
 "$1"
+
+#./dl-pl.sh "https://www.youtube.com/playlist?list=PLl4APkPHzsUUOkOv3i62UidrLmSB8DcGC" "K8s/CKAD-series" 54
