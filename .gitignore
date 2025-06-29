@@ -4,6 +4,11 @@ output
 output/
 FileContentIndex/
 FileContentIndex
+CopilotIndices
+CopilotIndices/
+v17
+v17/
+
 # Config
 *.conf
 cookies
