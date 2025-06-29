@@ -1,3 +1,9 @@
+gitignored
+gitignored/
+output
+output/
+FileContentIndex/
+FileContentIndex
 # Config
 *.conf
 cookies
